@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "65e8fbb9-01a0-4feb-bc2e-0389384be4f0",
+		"name": "Logs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "278189"
+	},
+	"item": [
+		{
+			"name": "spark - all - no search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/logs/spark/0/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"logs",
+						"spark",
+						"0",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spark - 100 - broadcast",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/logs/spark/100/broadcast",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"logs",
+						"spark",
+						"100",
+						"broadcast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hadoop - all - no search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/logs/hadoop/0/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"logs",
+						"hadoop",
+						"0",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hadoop - 25 - block pool",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/logs/hadoop/25/block pool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"logs",
+						"hadoop",
+						"25",
+						"block pool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HDFS - all - no search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/logs/HDFS/0/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"logs",
+						"HDFS",
+						"0",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HDFS - 100 - Deleting block",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/logs/HDFS/100/Deleting block",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"logs",
+						"HDFS",
+						"100",
+						"Deleting block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MIssing file name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/logs/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"logs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Missing line count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/logs/spark/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"logs",
+						"spark",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
