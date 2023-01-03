@@ -25,11 +25,6 @@ Data is returned in this format:
 The sample log files are found in the '/var/log' directory. Each file ranges
 from 200 KB to 1.5 GB in size.
 
-## Initial setup
-
-Download the log files from this [Google Drive link](https://drive.google.com/file/d/1rY35FmXErrzENVToQU--hBWRGnqiJw9d/view?usp=sharing) and extract
-them to /var/log.
-
 ## Run the application
 
 ```bash
